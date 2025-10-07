@@ -1,5 +1,6 @@
-Weather App.
-DataBase - CoreData
-WeatherAPI - Accu
+# Weather App
+
+DataBase - CoreData  
+WeatherAPI - Accu  
 Net - Decodable
 
