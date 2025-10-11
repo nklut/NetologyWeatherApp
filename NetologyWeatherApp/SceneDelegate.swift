@@ -18,7 +18,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         let window = UIWindow(windowScene: scene)
         
         // if 1st launch{
-        window.rootViewController = UINavigationController(rootViewController: OnboardingViewController())
+        window.rootViewController = UINavigationController(rootViewController: OnboardingVC())
        // } else {
         //window.rootViewController = UINavigationController(rootViewController: ViewController())
         //}

@@ -1,6 +1,6 @@
 import UIKit
 
-class OnboardingViewController: UIViewController {
+class OnboardingVC: UIViewController {
     
     private lazy var image: UIImageView = {
         let view = UIImageView()
@@ -106,6 +106,10 @@ class OnboardingViewController: UIViewController {
     
     @objc private func didTapAccept(){
         print("Geo Accepted")
+        navigationController?.pushViewController(MainVC(), animated: true)
+        
+        // UI Debug
+      //  navigationController?.pushViewController(ViewController(), animated: true)
     }
     
     @objc private func didTapDecline(){
